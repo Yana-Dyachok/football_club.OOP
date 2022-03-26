@@ -15,7 +15,7 @@ public://створюємо поля класу -з пуплічним моди�
 		cout << "The name of home stadium is  "; getline(cin, homeStadium);
 		cout << "President name of the team is  "; getline(cin, president);
 		cout << "Captain name of the team is  "; getline(cin, captain);
-		cout << "The numbers of visitors are  "; cin >> visit; cin.ignore(32767, '\n');//використовуємо cin.ignore для вbдалення пробілу з пам'яті
+		cout << "The numbers of visitors are  "; cin >> visit; cin.ignore(32767, '\n');//використовуємо cin.ignore для видалення пробілу з пам'яті
 	}
 	void output(){//метод класу  для виводу даних 
 		cout << "Command name - " << "\"" <<team << "\"" << endl;
